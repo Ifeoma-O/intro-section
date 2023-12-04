@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Epilogue;
+    src: url(./images_fonts/Epilogue-Regular.ttf);
+  }
+
+  
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+
+  body{
+    width: 100%;
+  }
+
+  nav{
+    font-family: 'Epilogue';
+    color: #696969;
+    font-weight: 500;
+    height: 40px;
+  }
+
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+
+.dropdown-item{
+   color: #696969; 
+}
+.dropdown-item:hover{
+    background: none;
+}
+
+.login{
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+    width: 110px;
+    text-align: center;
+    padding: .5rem 2rem;
+    color: #696969;
+}
+.login:hover{
+    color: hsl(0, 0%, 8%);
+}
+.register{
+    border: 2px solid #696969;
+    border-radius: 10px;
+    width: 110px;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    padding: .5rem 2rem;
+    color: #696969;
+}
+
+.register:hover{
+    border: 2px solid hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+}
+
+.mob-black-p{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mob-main-p{
+    margin: 12px 10%;
+    text-align: center;
+    width: 700px;
+}
+
+.mob-grey{
+    color: #696969;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.desk-main-p{
+    width: 60%;
+}
+
+.desk-img{
+    width: 40%;
+}
+
+.desk-img img{
+    width: 100%;
+}
+
+.learn{
+    width: 700px;
+    text-align: center;
+}
+.mob-logos{
+    margin-top: 80px;
+    width: 700px;
+    text-align: center;
+}
+.learn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    font-weight: 500;
+}
+.logos{
+    margin-top: 40px;
+    width: 83%;
+    display: flex;
+}
+.logos img{
+    width: 80px;
+    height: 20px; 
+    margin-right: 15px;
+}
+.desk-img{
+    width: 300px;
+    height: 350px;
+}
+
+.desktop{
+    margin: 100px 40px 20px 40px;
+    justify-content: space-around;
+}
+.desk-grey{
+    color: #696969;
+    font-size: 18px;
+    font-weight: 500;
+}
+.desk-main-p{
+    margin-top: 80px;
+    width: 40%;
+}
+.desk-black-p{
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 49px;
+}
+.desk-learn{
+    text-align: left;
+    border: none;
+    outline: none;
+}
+.desk-learn button:hover{
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+}
+
+.desk-learn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    font-weight: 500;
+}
